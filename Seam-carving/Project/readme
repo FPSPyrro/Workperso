@@ -1,0 +1,19 @@
+Pour la compilation du projet, il suffit de réaliser la commande de compilation classique en python du programme seamcurving.py:
+    py -i ./seamcurving.py
+
+Afin de modifier l'image à traiter, il faut modifier le nom dans la variable "chemin" situé dans le main ligne 103 par celui désiré.
+
+Vous pouvez choisir le nombre de ligne et de colonne à supprimer en modifiant les valeurs de "nbsuppcol" et "npsuppligne"
+
+Le programme s'execute de la manière suivante:
+    -Ouverture de l'image  
+    -Transformation de l'image en tableau
+    -Traitement du tableau de l'image par le filtre de sobel
+    -Affichage de l'image avec le filtre de sobel et enregistrement de celui-ci
+    -Detection et suppresion des plus court chemin dans le sens de la largeur
+    -Ajustement de la taille
+    -Rotation de l'image de 90°
+    -Réalisation du même procédé qu'avant mais pour la hauteur
+    -Rotation de l'image de -90°
+    -Affichage de l'image reduite et sauvegarde de celle-ci
+    

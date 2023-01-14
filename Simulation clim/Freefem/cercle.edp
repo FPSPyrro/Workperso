@@ -1,0 +1,8 @@
+real r = 0.05;
+
+
+border cercle(t=0,2*pi){x=r*cos(t);y=r*sin(t);label=1;};
+
+mesh Th = buildmesh( cercle(80));
+savemesh(Th,"circle.msh");
+plot(Th);
