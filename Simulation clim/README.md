@@ -1,3 +1,5 @@
+![](schema%20projet%20clim.png)
+
 ->Main: Contient les fonctions et le programme se lance tout seul
    -Pour lancer le programme: py -i ./<chemin>/main.py (compilation standard en python)
    -Si vous souhaitez modifier des paramètres, entre les lignes 10 et 25 du main vous pouvez les modifiers manuellement.
